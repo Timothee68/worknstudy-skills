@@ -190,4 +190,4 @@ Résolution :
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
 - J'ai fait une [présentation](...) ❌ / ✔️
-ecris tous comme si je l'écrivais moi pour un jury et explique
+
