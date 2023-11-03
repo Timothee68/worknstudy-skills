@@ -1,1 +1,33 @@
+# Plateforme .NET
 
+> ❌ A travailler
+
+> ✔️ Auto validation par l'étudiant
+
+## 🎓 J'ai compris et je peux expliquer
+
+- Introduction à la plateforme .NET ❌ / ✔️
+    - La plateforme .NET est un ensemble de technologies de développement logiciel développées par Microsoft. 
+Elle fournit un environnement d'exécution commun pour les langages de programmation, ce qui permet aux développeurs de créer des applications pour différentes plateformes.
+
+- Composants de la plateforme .NET ❌ / ✔️
+    - La plateforme .NET se compose de plusieurs composants clés, dont le Common Language Runtime (CLR), 
+la bibliothèque de classes .NET (BCL), les langages de programmation tels que C#, F#, VB.NET, et les outils de développement tels que Visual Studio.
+
+- Avantages de la plateforme .NET ❌ / ✔️
+    - Parmi les avantages de la plateforme .NET, on trouve la portabilité, la sécurité, la productivité du développement,
+la performance, la gestion automatique de la mémoire, le support de la programmation orientée objet, et l'intégration étroite avec d'autres produits Microsoft.
+
+- Inconvénients de la plateforme .NET ❌ / ✔️
+    - Les inconvénients de la plateforme .NET incluent une dépendance à l'écosystème Microsoft,
+une taille de distribution potentiellement importante, des contraintes de portabilité sur certaines plates-formes non-Windows, et une surcharge de gestion de la mémoire due au garbage collector.
+
+- Caractéristiques de la plateforme .NET ❌ / ✔️
+    - La plateforme .NET est connue pour sa gestion automatique de la mémoire grâce au garbage collector, 
+son support de la programmation orientée objet, son modèle de sécurité basé sur des autorisations,
+sa bibliothèque de classes riche, et sa capacité à cibler différentes plates-formes grâce à .NET Core.
+
+
+
+Cette description complète de la plateforme .NET devrait fournir une compréhension plus approfondie de ses composants, de ses avantages, de ses inconvénients et de ses caractéristiques, 
+ainsi que de son utilisation dans des projets réels et de sa résolution de problèmes éventuels.
