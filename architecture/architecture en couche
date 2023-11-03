@@ -1,0 +1,43 @@
+L'architecture en oignon, également connue sous le nom d'architecture en couches ou "Onion Architecture" en anglais, 
+est un modèle d'architecture logicielle qui vise à créer des applications bien structurées, modulaires et faciles à maintenir.
+L'architecture en oignon est principalement utilisée dans le développement de logiciels orientés objet et est basée sur les principes 
+de séparation des préoccupations (SoC - Separation of Concerns) et d'inversion de dépendance (IoC - Inversion of Control). 
+Voici une explication plus détaillée de l'architecture en oignon :
+
+Séparation des Préoccupations : 
+L'un des principaux objectifs de l'architecture en oignon est de séparer les différentes préoccupations d'une application.
+Cela signifie que les différentes parties de l'application sont organisées en couches distinctes, chacune étant responsable d'une préoccupation spécifique.
+Les préoccupations typiques incluent la présentation, la logique métier, la gestion des données, la sécurité, etc.
+
+Structure en Couches :
+L'architecture en oignon divise l'application en différentes couches, généralement au nombre de trois :
+la couche de présentation, la couche de logique métier et la couche d'accès aux données. Chaque couche a des responsabilités spécifiques et est conçue pour être indépendante des autres.
+
+Couche de Présentation : Cette couche est responsable de l'interface utilisateur de l'application.
+Elle gère l'interaction avec l'utilisateur, la validation des données en entrée, l'affichage des résultats, etc. C'est la couche la plus visible pour les utilisateurs.
+
+Couche de Logique Métier : Cette couche contient la logique métier de l'application. 
+Elle traite les règles métier, les opérations de traitement, la validation des données et d'autres tâches liées au fonctionnement central de l'application.
+
+Couche d'Accès aux Données : Cette couche gère l'accès aux données, qu'il s'agisse de bases de données, de services Web, de fichiers, etc. 
+Elle est responsable de la récupération et de la sauvegarde des données, ainsi que de la gestion de la persistance.
+
+Inversion de Dépendance (IoC) : 
+L'architecture en oignon favorise le principe d'inversion de dépendance. 
+Cela signifie que les couches internes de l'application ne dépendent pas des couches externes, mais plutôt l'inverse.
+Par exemple, la couche de logique métier peut dépendre de la couche d'accès aux données, mais la couche d'accès aux données ne doit pas dépendre de la couche de logique métier.
+Cela rend l'application plus souple et facilite les tests unitaires.
+
+Tests Unitaires Facilités : En séparant clairement la logique métier des détails d'implémentation, l'architecture en oignon facilite les tests unitaires.
+Les composants de la logique métier peuvent être testés de manière indépendante, ce qui permet de garantir la qualité du code et de détecter plus facilement les erreurs.
+
+Modularité et Extensibilité : Grâce à la séparation des couches et à l'inversion de dépendance,
+l'architecture en oignon permet d'ajouter de nouvelles fonctionnalités ou de modifier des parties de l'application sans avoir un impact majeur sur le reste du système. 
+Cela rend l'application plus modulaire et extensible.
+
+Évolutivité : 
+L'architecture en oignon facilite également l'évolutivité de l'application. 
+Vous pouvez ajouter de nouvelles couches ou étendre les couches existantes pour répondre aux besoins changeants de l'application sans perturber l'ensemble du système.
+
+En résumé, l'architecture en oignon est un modèle d'architecture logicielle qui favorise la séparation des préoccupations, la modélisation en couches, 
+l'inversion de dépendance et la facilité de test. Elle est conçue pour créer des applications bien structurées, maintenables et évolutives.
